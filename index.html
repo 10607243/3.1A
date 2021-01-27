@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+
+
+<script>
+
+function funcion_apellido() {
+  var nom = document.getElementById("nom").value;
+  var ape = document.getElementById("ape").value;
+  alert ('bienvenido ' + nom + ' '+ ape)
+}
+</script>
+</head>
+
+<body >
+<h1 class="blue">practica bloque 3</h1>
+Introduce nombre:  <input type="text" id="nom" >
+Introduce tu apellido: <input type="text" id="ape" onchange="funcion_apellido()">
+</body> 
